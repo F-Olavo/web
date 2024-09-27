@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=for,, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table>
+                <tr>
+                    <td>Nome</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Idade</td>
+                    <td><input type="number" min="0" max="120"></td>
+                </tr>
+                <tr>
+                    <td>Data de Nascimento: </td>
+                    <td><input type="date"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <table>
+                <tr>
+                    <td>Escolaridade</td>
+                    <td><select name="escolaridade" id="escolaridade">
+                        <option value="fundamental2">Fundamental 2</option>
+                        <option value="ensinomédio">Ensino médio</option>
+                        <option value="ensinosuperior">Ensino superior</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Tem experiência na area de TI ?</td>
+                    <td><input type="radio" name="opcao" value="yes">sim</
+                    <br>
+                    <input type="radio" name="opcao" value="no">não</td>
+                </tr>
+                <tr>
+                    <td>disponibilidade </td>
+                    <td><input type="checkbox" name="turno" value="manha"> manha 
+                    <input type="checkbox" name="turno" value="tarde"> tarde 
+                    <input type="checkbox" name="turno" value="noite"> noite </td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Enviar Formuláio"
+    </form>
+</body>
+</html>
