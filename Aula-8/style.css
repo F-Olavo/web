@@ -1,0 +1,69 @@
+h1{
+    background-color: black;
+    color: red;
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+}
+
+h1 a:hover{
+    color: snow;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+
+}
+
+h2{
+    text-align: center;
+}
+
+::placeholder{
+    color:rgb(120, 120, 120);
+}
+
+input, select{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid;
+    border-color: blue;
+    box-shadow: 1px 1px 2px #33333333;
+}
+
+input:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+input:focus{
+    background-color: rgb(102, 102, 105);
+    color: snow;
+}
+
+fieldset{
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    margin-bottom: 5px;
+}
+
+td{
+    text-align: right;
+    padding: 5px;
+    border: 1px;
+    border-color: rgb(217, 214, 214);
+    border-style: solid;
+}
+
+table{
+    width: 100%;
+
+}
+
+div{
+    margin-left: 5%;
+    margin-right: 5%;
+}
